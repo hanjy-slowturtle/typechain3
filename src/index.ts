@@ -1,7 +1,3 @@
-import { init, exit } from "myPackage";
+import { init, exit } from "./myPackage";
 
-init({
-  url: "url",
-});
-
-exit(1);
+init();
